@@ -1,5 +1,20 @@
 # QRCodeReader
 
+PythonでQRコードを読み取るプログラム
+注「QRコード」は株式会社デンソーウェーブの登録商標です。
+
+## クイックスタート
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install pyzbar opencv-python
+```
+
+```
+python qrcode_reader.py
+```
+
 ## ライセンス
 
 ```
